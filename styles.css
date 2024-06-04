@@ -1,0 +1,176 @@
+body {
+    position: relative;
+    padding-top: 56px; /* Altura del navbar */
+    background-color: #111;
+    color: #fff;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.carousel-caption h5 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* carrousel gallery */
+.small-carousel {
+  margin: 0 auto;   /* Centra el carrusel horizontalmente */
+}
+
+.texto{
+  text-align: justify;
+}
+.small-carousel .carousel-item img {
+  height: 400px; /* Ajusta la altura de las imágenes */
+  object-fit: cover; /* Asegura que la imagen cubra toda el área sin deformarse */
+}
+
+/* carousel index */
+.small-carousel1 {
+  margin: 0 auto;   /* Centra el carrusel horizontalmente */
+}
+
+.small-carousel1 .carousel-item img {
+  height: 600px; /* Ajusta la altura de las imágenes */
+  object-fit: cover; /* Asegura que la imagen cubra toda el área sin deformarse */
+}
+/*  */
+
+    /* Estilos para el parallax */
+    .parallax {
+        background-image: url('img/pclianli.gif'); /* Ruta de tu imagen de fondo */
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 50vh; /*Altura de la sección */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+      }
+
+      .parallaxabout {
+        background-image: url('img/cmptr.gif'); /* Ruta de tu imagen de fondo */
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 50vh; /*Altura de la sección */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+      }
+  
+      .parallax h1 {
+        font-size: 3em;
+      }
+  
+      /* Otros estilos */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+  
+      /* Otros estilos para las secciones */
+      section {
+        padding: 50px 0;
+      }
+  
+      .content {
+        text-align: center;
+      }
+
+      /* .bg-navy {
+        background-color: navy; 
+      } */
+
+/*  */
+.card {
+  background-color: rgb(50, 49, 49);
+  color: #fff;
+}
+.card-body {
+  background-color: #000;
+  color: #fff;
+}
+.card .btn {
+  background-color: #007bff;
+  color: #fff;
+}
+.card .btn:hover {
+  background-color: #0056b3;
+}
+/* galeria */
+/* galeria */
+/* galeria */
+.card-hover {
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-hover .overlay-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.card-hover:hover .overlay-text {
+    display: block;
+}
+
+.card-hover .card-body {
+    position: relative;
+}
+
+.card-hover .card-img-top {
+    transition: filter 0.3s ease;
+    max-height: 200px; /* Ajusta según sea necesario */
+}
+
+.card-hover:hover .card-img-top {
+    filter: brightness(70%);
+}
+
+.card-hover .modal-body {
+    padding: 0;
+}
+
+
+/* nosotros */
+
+
+
+
+
+
+
+
+  
